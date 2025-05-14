@@ -73,7 +73,7 @@ pruebas:
     resultado: Correcto
 
   - pregunta: "cual es su edad"
-    resultado: Controlado (respuesta genérica)
+    resultado: Correcto
 
 # 🧩 TECNOLOGÍAS UTILIZADAS
 tecnologias:
