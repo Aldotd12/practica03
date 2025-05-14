@@ -17,6 +17,8 @@ grado_grupo: 9°A
 # 📌 DESCRIPCIÓN DE LA SKILL
 skill:
   nombre: hola despierta
+  <br>
+  <br>
   descripcion: 
     Esta skill responde por comandos de voz a cuatro preguntas estáticas definidas por el estudiante.
     Fue creada con el Alexa Skills Kit en Node.js usando la consola de desarrollo de Alexa.
