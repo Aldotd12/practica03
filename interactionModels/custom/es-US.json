@@ -1,0 +1,87 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "slots": [
+            {
+              "name": "tipoPregunta",
+              "type": "TIPO_PREGUNTA"
+            }
+          ],
+          "name": "PreguntaIntent",
+          "samples": [
+            "cual es su {tipoPregunta}",
+            "cual es su {tipoPregunta} favorita",
+            "quiero saber la {tipoPregunta} favorita",
+            "cuentame el {tipoPregunta}",
+            "que {tipoPregunta} es",
+            "sabes la {tipoPregunta}"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hello",
+            "say hello",
+            "say hello world"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "comida"
+              }
+            },
+            {
+              "name": {
+                "value": "creador"
+              }
+            },
+            {
+              "name": {
+                "value": "deporte"
+              }
+            },
+            {
+              "name": {
+                "value": "edad"
+              }
+            },
+            {
+              "name": {
+                "value": "musica"
+              }
+            }
+          ],
+          "name": "TIPO_PREGUNTA"
+        }
+      ],
+      "invocationName": "hola despierta"
+    }
+  }
+}
